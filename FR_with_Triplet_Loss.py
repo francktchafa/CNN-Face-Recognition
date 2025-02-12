@@ -1,12 +1,11 @@
 """
 Sample code for training a face recognition (FR) model using the triplet loss function.
-
 This code utilizes the InceptionResNetV2 as the base model, coupled with additional layers to output a 128-D embedding.
 
 Steps and benefits:
-- **Generate Embeddings**: The FR model is fine-tuned to generate image embeddings that minimize the triplet loss.
-- **Post-training Usage**: After training, embeddings can be generated for new images.
-- **Functionality**: Use the 'verify_id()' or 'who_is_this()' functions to determine if a person in the camera image
+- Generate Embeddings: The FR model is fine-tuned to generate image embeddings that minimize the triplet loss.
+- Post-training Usage: After training, embeddings can be generated for new images.
+- Functionality: Use the 'verify_id()' or 'who_is_this()' functions to determine if a person in the camera image
   matches the identity or exists in the database.
 """
 
