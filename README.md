@@ -6,4 +6,4 @@ This approach employs a triplet loss function to train the CNN, enabling it to l
 
 **Face Recognition with Binary Classification**
 
-This approach uses InceptionResNetV2 as the base model, coupled with additional layers for binary classification. The model generates image embeddings that minimize binary cross-entropy loss. Post-training, verification functions determine if a person in the camera image matches an identity in the database. This method is suitable for basic face-recognition tasks.# CNN-Face-Recognition
+This approach uses InceptionResNetV2 as the base model, coupled with additional layers for binary classification. The model generates image embeddings that minimize binary cross-entropy loss. Post-training, verification functions determine if a person in the camera image matches an identity in the database. This method is suitable for basic face-recognition tasks.
